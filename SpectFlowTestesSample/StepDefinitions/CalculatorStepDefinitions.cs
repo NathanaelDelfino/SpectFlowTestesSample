@@ -43,6 +43,11 @@ namespace SpectFlowTestesSample.StepDefinitions
             _result = _calculator.Add();
         }
 
+        [When(@"the three numbers are subtract")]
+        public void WhenTheThreeNumbersAreSubtract()
+        {
+           _result -= _calculator.Subtract();
+        }
 
 
     }

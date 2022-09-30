@@ -17,5 +17,10 @@ namespace ProjetoParaSerTestadoNoSpecFlow
         {
             return FirstNumber + SecondNumber + ThirdNumber;
         }
+
+        public int Subtract()
+        {
+            return FirstNumber - SecondNumber;
+        }
     }
 }
