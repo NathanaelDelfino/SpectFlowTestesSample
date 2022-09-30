@@ -1,0 +1,15 @@
+C:\_NathanDev\SpectFlowTestesSample\ProjetoParaSerTestadoNoSpecFlow\bin\Debug\net6.0\ProjetoParaSerTestadoNoSpecFlow.exe
+C:\_NathanDev\SpectFlowTestesSample\ProjetoParaSerTestadoNoSpecFlow\bin\Debug\net6.0\ProjetoParaSerTestadoNoSpecFlow.deps.json
+C:\_NathanDev\SpectFlowTestesSample\ProjetoParaSerTestadoNoSpecFlow\bin\Debug\net6.0\ProjetoParaSerTestadoNoSpecFlow.runtimeconfig.json
+C:\_NathanDev\SpectFlowTestesSample\ProjetoParaSerTestadoNoSpecFlow\bin\Debug\net6.0\ProjetoParaSerTestadoNoSpecFlow.dll
+C:\_NathanDev\SpectFlowTestesSample\ProjetoParaSerTestadoNoSpecFlow\bin\Debug\net6.0\ProjetoParaSerTestadoNoSpecFlow.pdb
+C:\_NathanDev\SpectFlowTestesSample\ProjetoParaSerTestadoNoSpecFlow\obj\Debug\net6.0\ProjetoParaSerTestadoNoSpecFlow.csproj.AssemblyReference.cache
+C:\_NathanDev\SpectFlowTestesSample\ProjetoParaSerTestadoNoSpecFlow\obj\Debug\net6.0\ProjetoParaSerTestadoNoSpecFlow.GeneratedMSBuildEditorConfig.editorconfig
+C:\_NathanDev\SpectFlowTestesSample\ProjetoParaSerTestadoNoSpecFlow\obj\Debug\net6.0\ProjetoParaSerTestadoNoSpecFlow.AssemblyInfoInputs.cache
+C:\_NathanDev\SpectFlowTestesSample\ProjetoParaSerTestadoNoSpecFlow\obj\Debug\net6.0\ProjetoParaSerTestadoNoSpecFlow.AssemblyInfo.cs
+C:\_NathanDev\SpectFlowTestesSample\ProjetoParaSerTestadoNoSpecFlow\obj\Debug\net6.0\ProjetoParaSerTestadoNoSpecFlow.csproj.CoreCompileInputs.cache
+C:\_NathanDev\SpectFlowTestesSample\ProjetoParaSerTestadoNoSpecFlow\obj\Debug\net6.0\ProjetoParaSerTestadoNoSpecFlow.dll
+C:\_NathanDev\SpectFlowTestesSample\ProjetoParaSerTestadoNoSpecFlow\obj\Debug\net6.0\refint\ProjetoParaSerTestadoNoSpecFlow.dll
+C:\_NathanDev\SpectFlowTestesSample\ProjetoParaSerTestadoNoSpecFlow\obj\Debug\net6.0\ProjetoParaSerTestadoNoSpecFlow.pdb
+C:\_NathanDev\SpectFlowTestesSample\ProjetoParaSerTestadoNoSpecFlow\obj\Debug\net6.0\ProjetoParaSerTestadoNoSpecFlow.genruntimeconfig.cache
+C:\_NathanDev\SpectFlowTestesSample\ProjetoParaSerTestadoNoSpecFlow\obj\Debug\net6.0\ref\ProjetoParaSerTestadoNoSpecFlow.dll
