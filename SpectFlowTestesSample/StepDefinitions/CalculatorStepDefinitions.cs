@@ -1,54 +1,49 @@
 using ProjetoParaSerTestadoNoSpecFlow;
+using System;
+using TechTalk.SpecFlow;
 
 namespace SpectFlowTestesSample.StepDefinitions
 {
     [Binding]
-    public sealed class CalculatorStepDefinitions
+    public class CalculatorStepDefinitions
     {
-        private readonly Calculator _calculator = new Calculator();
-        private int _result;
-        
-        [Given("the first number is (.*)")]
-        public void GivenTheFirstNumberIs(int number)
+        public Calculator _calculadora = new Calculator();
+        public int _resultado;
+
+        [Given(@"que o primeiro numero é (.*)")]
+        public void GivenQueOPrimeiroNumeroE(int p0)
         {
-            _calculator.FirstNumber = number;
+            _calculadora.FirstNumber = p0;
         }
 
-        [Given("the second number is (.*)")]
-        public void GivenTheSecondNumberIs(int number)
+        [Given(@"que o segundo numero é (.*)")]
+        public void GivenQueOSegundoNumeroE(int p0)
         {
-            _calculator.SecondNumber = number;
+            _calculadora.SecondNumber = p0;
         }
 
-        [When(@"the two numbers are sum")]
-        public void WhenTheTwoNumbersAreSum()
+        [When(@"solicitar a soma dos dois numeros")]
+        public void WhenSolicitarASomaDosDoisNumeros()
         {
-            _result = _calculator.Add();
+            _resultado= _calculadora.Add();
         }
 
-        [Then("the result should be (.*)")]
-        public void ThenTheResultShouldBe(int result)
+        [Then(@"Então o resultado esperado é (.*)")]
+        public void ThenEntaoOResultadoEsperadoE(int p0)
         {
-            _result.Should().Be(result);
+            _resultado.Should().Be(p0);
         }
 
-        [Given(@"the third number is (.*)")]
-        public void GivenTheThirdNumberIs(int number)
+        [When(@"solicitar a subtração dos dois numeros")]
+        public void WhenSolicitarASubtracaoDosDoisNumeros()
         {
-            _calculator.ThirdNumber = number;
-        }
-        [When(@"the three numbers are sum")]
-        public void WhenTheThreeNumbersAreAdded()
-        {
-            _result = _calculator.Add();
+            _resultado = _calculadora.Subtract();
         }
 
-        [When(@"the three numbers are subtract")]
-        public void WhenTheThreeNumbersAreSubtract()
+        [When(@"solicitar a mutiplicacao dos dois numeros")]
+        public void WhenSolicitarAMutiplicacaoDosDoisNumeros()
         {
-           _result -= _calculator.Subtract();
+            _resultado = _calculadora.Multiplicate();
         }
-
-
     }
 }

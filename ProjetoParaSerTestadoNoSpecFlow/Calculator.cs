@@ -11,16 +11,21 @@ namespace ProjetoParaSerTestadoNoSpecFlow
         public int FirstNumber { get; set; }
         
         public int SecondNumber { get; set; }
-        public int ThirdNumber { get; set; }
+        
 
         public int Add()
         {
-            return FirstNumber + SecondNumber + ThirdNumber;
+            return FirstNumber + SecondNumber ;
         }
 
         public int Subtract()
         {
             return FirstNumber - SecondNumber;
+        }
+
+        public int Multiplicate()
+        {
+            return FirstNumber * SecondNumber;
         }
     }
 }

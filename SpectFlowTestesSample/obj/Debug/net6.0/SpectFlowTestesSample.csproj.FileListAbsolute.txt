@@ -13,6 +13,7 @@ C:\_NathanDev\SpectFlowTestesSample\SpectFlowTestesSample\bin\Debug\net6.0\nunit
 C:\_NathanDev\SpectFlowTestesSample\SpectFlowTestesSample\bin\Debug\net6.0\nunit.engine.api.dll
 C:\_NathanDev\SpectFlowTestesSample\SpectFlowTestesSample\bin\Debug\net6.0\nunit.engine.core.dll
 C:\_NathanDev\SpectFlowTestesSample\SpectFlowTestesSample\bin\Debug\net6.0\testcentric.engine.metadata.dll
+C:\_NathanDev\SpectFlowTestesSample\SpectFlowTestesSample\bin\Debug\net6.0\specflow.json
 C:\_NathanDev\SpectFlowTestesSample\SpectFlowTestesSample\bin\Debug\net6.0\SpectFlowTestesSample.deps.json
 C:\_NathanDev\SpectFlowTestesSample\SpectFlowTestesSample\bin\Debug\net6.0\SpectFlowTestesSample.runtimeconfig.json
 C:\_NathanDev\SpectFlowTestesSample\SpectFlowTestesSample\bin\Debug\net6.0\SpectFlowTestesSample.dll

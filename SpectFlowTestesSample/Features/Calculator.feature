@@ -1,4 +1,4 @@
-﻿Feature: Calculator
+﻿Funcionalidade: Calculator
 ![Calculator](https://specflow.org/wp-content/uploads/2020/09/calculator.png)
 Simple calculator for adding **two** numbers
 
@@ -7,23 +7,22 @@ Link to a feature: [Calculator](SpectFlowTestesSample/Features/Calculator.featur
 
 
 @SomaComDoisNumeros
-Scenario: Add two numbers
-	Given the first number is 50
-	And the second number is 70
-	When the two numbers are sum
-	Then the result should be 120
+Cenário: Somando dois numeros
+	Dado que o primeiro numero é 50
+	E que o segundo numero é 70
+	Quando solicitar a soma dos dois numeros
+	Então Então o resultado esperado é 120
 
-	When the three numbers are subtract
-	Then the result should be 20
+Cenário: Subtraindo dois numeros
+	Dado que o primeiro numero é 70
+	E que o segundo numero é 50
+	Quando solicitar a subtração dos dois numeros
+	Então Então o resultado esperado é 20
 
-@SomaComTresNumeros
-Scenario: Add three numbers
-	Given the first number is 70
-	And the second number is 50
-	And the third number is 30
-	When the three numbers are sum
-	Then the result should be 150
-
-
+Cenário: Multiplicando Dois Numeros
+	Dado que o primeiro numero é 5
+	E que o segundo numero é 7
+	Quando solicitar a mutiplicacao dos dois numeros
+	Então Então o resultado esperado é 35
 
 
