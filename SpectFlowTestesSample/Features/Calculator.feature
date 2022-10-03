@@ -25,4 +25,8 @@ Cenário: Multiplicando Dois Numeros
 	Quando solicitar a mutiplicacao dos dois numeros
 	Então Então o resultado esperado é 35
 
-
+Cenário: Dividindo Dois Numeros
+	Dado que o primeiro numero é 10
+	E que o segundo numero é 2
+	Quando solicitar a divisão dos dois numeros
+	Então Então o resultado esperado é 5

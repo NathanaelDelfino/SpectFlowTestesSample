@@ -27,5 +27,10 @@ namespace ProjetoParaSerTestadoNoSpecFlow
         {
             return FirstNumber * SecondNumber;
         }
+
+        public int Division()
+        {
+            return FirstNumber / SecondNumber;
+        }
     }
 }

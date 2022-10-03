@@ -45,5 +45,12 @@ namespace SpectFlowTestesSample.StepDefinitions
         {
             _resultado = _calculadora.Multiplicate();
         }
+
+        [When(@"solicitar a divisão dos dois numeros")]
+        public void WhenSolicitarADivisaoDosDoisNumeros()
+        {
+            _resultado = _calculadora.Division();
+        }
+
     }
 }
