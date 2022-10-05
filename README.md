@@ -5,6 +5,13 @@
    O SpecFlow é uma ferramenta open souce para BDD na plataforma .NET, é uma solução para automação de testes em .NET. É utilizado para definir, gerenciar e executar automatiamente testes de aceitação de modo legivel por humanos. Foi construído utilizando como base o Gherkin, que é um modelo de escrita de casos de teste utilizando linguagem natual. Atualmente o Specflow suporta mais de 70 idiomas, entre eles o português (pt-BR). Os testes são escrito com base em cenários e vinculados ao código, facilitando o processo de descrição do comportamento esperado por meio de cenários e criando códigos para testes a partir destes cenários. Para por fim escrever o códido que será utilizado pela aplicação criando assim o ciclo de BDD >> TDD >> DDD.
 
 
+### Como instalar o SpecFlow 
+O link abaixo descreve na documentação oficial o como realizar a instalação do Specflow
+
+[Como instalar](https://docs.specflow.org/projects/getting-started/en/latest/GettingStarted/Step1.html)
+
+### Como criar um projeto
+
 ### Escrevendo cenários para o SpecFlow 
 
 ![image](https://user-images.githubusercontent.com/7662248/194069672-56a73215-4e94-40b5-beb0-860bab510878.png)
