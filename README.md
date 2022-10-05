@@ -19,8 +19,19 @@
 
 ![image](https://user-images.githubusercontent.com/7662248/193663903-aff7ec69-0634-4a9a-ae7f-7adddc2bcb47.png)
 
+### Gerando a LivingDoc
+O LivingDoc Generator permite gerar documentação viva em formato HTML sem dependências externas.
 
-#### Comando para gerar a documentação automática
+ - É necessário instalar o  SpecFlow.Plus.LivingDoc Plugin via CLI tool, através do comando
+```
+  dotnet tool install --global SpecFlow.Plus.LivingDoc.CLI
+```
+ - Para gerar a documentação automática é necessário realizar um build do projeto e referenciar a dll gerada do projeto em conjunto com o json.
+```cmd
+livingdoc test-assembly SpecFlowCalculator.dll -t SpecFlowCalculator.deps.json
+```
+
+##### Comando para gerar a documentação automática
 
 ![image](https://user-images.githubusercontent.com/7662248/193664496-15c9710d-b7d9-40a6-babd-05f6eedee3f5.png)
 
