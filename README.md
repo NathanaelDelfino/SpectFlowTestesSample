@@ -42,4 +42,8 @@ Quando estiver utilizando Specflow em pt-BR, é necessário adicionar no inicio 
 ##### Documentação Gerada
 ![image](https://user-images.githubusercontent.com/7662248/194055839-3a213f75-1126-4754-a231-25e6243116e7.png)
 
+##### Arquivo de exemplo
+[LivingDoc.zip](https://github.com/NathanaelDelfino/SpectFlowTestesSample/files/9715547/LivingDoc.zip)
+
+
 
