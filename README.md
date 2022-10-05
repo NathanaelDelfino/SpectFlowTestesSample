@@ -30,10 +30,16 @@ O LivingDoc Generator permite gerar documentação viva em formato HTML sem depe
 ```cmd
 livingdoc test-assembly SpecFlowCalculator.dll -t SpecFlowCalculator.deps.json
 ```
+#### Dica 
+Quando estiver utilizando Specflow em pt-BR, é necessário adicionar no inicio do arquivo .feature no inicio do arquivo o idioma utilizado
+![image](https://user-images.githubusercontent.com/7662248/194056342-e0bffb9d-b946-46d5-8bf7-a3b95a11813e.png)
+
 
 ##### Comando para gerar a documentação automática
 
 ![image](https://user-images.githubusercontent.com/7662248/193664496-15c9710d-b7d9-40a6-babd-05f6eedee3f5.png)
 
 ##### Documentação Gerada
-![image](https://user-images.githubusercontent.com/7662248/194050673-5cda3da8-8bb5-4c14-8a4b-52fe34f3a464.png)
+![image](https://user-images.githubusercontent.com/7662248/194055839-3a213f75-1126-4754-a231-25e6243116e7.png)
+
+
