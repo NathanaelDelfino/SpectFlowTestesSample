@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xDJ6iloW2hhW2my+c2cguDRL5qYBnZFeTyxpl9zJJM/arXB8NVkgo54UR+E5e6BIv2p+TZ9peXO3jNIGxW1YhA==",
+  "dgSpecHash": "Gq4AoUSY2nYmtHva05o6M4uBgTeB0AVVeLRcH/Q/IfAvriddP6+BRRCF1I9ygNPU8x4nJ6g/rQR5hAaRvejoiw==",
   "success": true,
   "projectFilePath": "C:\\_NathanDev\\SpectFlowTestesSample\\SpectFlowTestesSample\\SpectFlowTestesSample.csproj",
   "expectedPackageFiles": [
@@ -36,11 +36,11 @@
     "C:\\Users\\dellj\\.nuget\\packages\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\dellj\\.nuget\\packages\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
     "C:\\Users\\dellj\\.nuget\\packages\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",
-    "C:\\Users\\dellj\\.nuget\\packages\\specflow\\3.9.40\\specflow.3.9.40.nupkg.sha512",
+    "C:\\Users\\dellj\\.nuget\\packages\\specflow\\3.9.74\\specflow.3.9.74.nupkg.sha512",
     "C:\\Users\\dellj\\.nuget\\packages\\specflow.internal.json\\1.0.8\\specflow.internal.json.1.0.8.nupkg.sha512",
-    "C:\\Users\\dellj\\.nuget\\packages\\specflow.nunit\\3.9.40\\specflow.nunit.3.9.40.nupkg.sha512",
+    "C:\\Users\\dellj\\.nuget\\packages\\specflow.nunit\\3.9.74\\specflow.nunit.3.9.74.nupkg.sha512",
     "C:\\Users\\dellj\\.nuget\\packages\\specflow.plus.livingdocplugin\\3.9.57\\specflow.plus.livingdocplugin.3.9.57.nupkg.sha512",
-    "C:\\Users\\dellj\\.nuget\\packages\\specflow.tools.msbuild.generation\\3.9.40\\specflow.tools.msbuild.generation.3.9.40.nupkg.sha512",
+    "C:\\Users\\dellj\\.nuget\\packages\\specflow.tools.msbuild.generation\\3.9.74\\specflow.tools.msbuild.generation.3.9.74.nupkg.sha512",
     "C:\\Users\\dellj\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
     "C:\\Users\\dellj\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
     "C:\\Users\\dellj\\.nuget\\packages\\system.collections.concurrent\\4.3.0\\system.collections.concurrent.4.3.0.nupkg.sha512",

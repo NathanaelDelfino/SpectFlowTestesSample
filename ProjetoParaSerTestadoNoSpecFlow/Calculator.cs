@@ -8,6 +8,8 @@ namespace ProjetoParaSerTestadoNoSpecFlow
 {
     public class Calculator
     {
+        public int ThirdNumber;
+
         public int FirstNumber { get; set; }
         
         public int SecondNumber { get; set; }
@@ -15,7 +17,7 @@ namespace ProjetoParaSerTestadoNoSpecFlow
 
         public int Add()
         {
-            return FirstNumber + SecondNumber ;
+            return FirstNumber + SecondNumber + ThirdNumber;
         }
 
         public int Subtract()

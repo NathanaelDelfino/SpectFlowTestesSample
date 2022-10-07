@@ -22,17 +22,26 @@ namespace SpectFlowTestesSample.StepDefinitions
             _calculadora.SecondNumber = p0;
         }
 
-        [When(@"solicitar a soma dos dois numeros")]
-        public void WhenSolicitarASomaDosDoisNumeros()
+        [Given(@"que o terceiro numero (.*)")]
+        public void GivenQueOTerceiroNumero(int p0)
         {
-            _resultado= _calculadora.Add();
+            _calculadora.ThirdNumber = p0;
         }
 
-        [Then(@"Então o resultado esperado é (.*)")]
-        public void ThenEntaoOResultadoEsperadoE(int p0)
+
+        [When(@"solicitar a soma dos numeros")]
+        public void WhenSolicitarASomaDosNumeros()
+        {
+            _resultado = _calculadora.Add();
+        }
+
+
+        [Then(@"o resultado esperado é (.*)")]
+        public void ThenOResultadoEsperadoE(int p0)
         {
             _resultado.Should().Be(p0);
         }
+
 
         [When(@"solicitar a subtração dos dois numeros")]
         public void WhenSolicitarASubtracaoDosDoisNumeros()
