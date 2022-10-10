@@ -12,6 +12,56 @@ O link abaixo descreve na documentação oficial o como realizar a instalação 
 
 ### Como criar um projeto
 
+Com a nossa solução criada, vamos dar inicio dar inicio a criação do projeto no SpecFlow
+
+![image](https://user-images.githubusercontent.com/7662248/194955217-d52ec09b-bc32-44d2-8efd-ffe868601df5.png)
+
+Vamos criar o projeto no SpecFlow
+
+![image](https://user-images.githubusercontent.com/7662248/194955944-ed20e9fd-9c6f-4a10-bdc1-bbbed1b711bf.png)
+
+Na criação apenas definimos um nome, criamos o projeto. A partir desse ponto o projeto já está anexado a nossa solução e temos tudo quase pronto para iniciar a criação do eventos que vamos utilizar em nosso projeto
+
+![image](https://user-images.githubusercontent.com/7662248/194956065-4cfe0b84-48b6-4187-ab9c-17be1616e109.png)
+
+Com o projeto que ira realizar os testes criado, devemos adicionar a referencia do projeto que irá ser desenvolvido e entregue.
+
+![image](https://user-images.githubusercontent.com/7662248/194956412-8423e3a5-1398-495b-b9e0-4cc4c72b9a74.png)
+
+Selecionamos e damos OK
+
+![image](https://user-images.githubusercontent.com/7662248/194956501-c067031e-0c60-4c9c-9a7a-9c2f4fd337ea.png)
+
+_obs: Para que o evento de troca de idioma funcione, deve limpar a solução e e tentar compilar novamente._
+
+Com tudo pronto e configurado começamos a definição dos cenários que irão comportor os comportamentos e funcionalidades esperados pelo sistema que necessita se desenvolvido.
+
+Cada cenário será composto por :
+
+```SpecFlow
+Cenário: _Um titulo de compreenção do que deve ser feito (obs: É ideal que se defina bem o que deve ser feito)_
+	Dado  _Um pré informação do que será realizado_
+	E _Uma informação adicionado do que deve ser feito_
+	Quando _O evento que deve ser executado nesse cenário_
+	Então _O resultado esperado_
+```
+![image](https://user-images.githubusercontent.com/7662248/194957721-1ee0217c-41e6-4921-8e13-fac5d7662ca6.png)
+
+Com o cenário definido vamos definir os passos a serem realizados
+
+![image](https://user-images.githubusercontent.com/7662248/194957789-5fa662f1-cc2b-4f2d-bff0-4738be75e71d.png)
+
+Em primeiro momento nos será exibido a seguinte tela, que nos é dado duas opções, a primera que é copiar para o clipboard, e uma segunda que irá alterar o arquivos que armazena nossos testes criados. ⚠️⚠️⚠️ Muito cuidado com a segunda. Pois se já existerem testes no nosso projeto, os mesmos serão sobreescritos pelos novos a serem executados. ⚠️⚠️⚠️
+
+
+![image](https://user-images.githubusercontent.com/7662248/194957983-03875433-09cc-4eba-a4c6-12d5dca047c4.png)
+
+
+Agora com os processos definidos nos resta implementar os testes e suas devidas funcionalidades 
+
+![image](https://user-images.githubusercontent.com/7662248/194958336-d4d66f1b-f9c3-4c28-8ab8-021f52ffc1f7.png)
+
+
 ⚠️⚠️⚠️ Em andamento ⚠️⚠️⚠️
 
 
