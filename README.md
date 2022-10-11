@@ -61,10 +61,6 @@ Agora com os processos definidos nos resta implementar os testes e suas devidas 
 
 ![image](https://user-images.githubusercontent.com/7662248/194958336-d4d66f1b-f9c3-4c28-8ab8-021f52ffc1f7.png)
 
-
-⚠️⚠️⚠️ Em andamento ⚠️⚠️⚠️
-
-
 ### Escrevendo cenários para o SpecFlow 
 
 ![image](https://user-images.githubusercontent.com/7662248/194069672-56a73215-4e94-40b5-beb0-860bab510878.png)
